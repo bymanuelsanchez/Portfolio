@@ -1,0 +1,42 @@
+/*----- COLOR -----*/
+
+$black: #000000;
+$white: #FFFFFF;
+
+$pop: $red;
+
+.pop{
+    color: $pop;
+}
+
+
+/*----- FONT STYLE -----*/
+
+$reg: 400; /*regular*/
+$bold: 600; /*semi bold*/
+$font: 'Archivo', sans-serif;
+
+.light{
+    font-weight: $reg;
+}
+
+.bold{
+    font-weight: $bold;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+
+/*----- Border -----*/
+$border: 1px;
+$radius: 10px;
+$radius-small: 2px;
+
+/*----- Transition time -----*/
+$tran-time: .2s;
+
+
+/*----- @media width -----*/
+$desk: 650px;
