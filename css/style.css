@@ -289,10 +289,6 @@ div {
   transition: 0.2s;
 }
 
-.mateo-img {
-  background-color: red;
-}
-
 /**/
 .random-img {
   margin-top: 2em;
@@ -307,6 +303,8 @@ div {
   height: 48em;
   width: 50em;
   background-color: yellow;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .about-img:hover {
@@ -350,6 +348,51 @@ div {
 .entrada-pic7 {
   background-image: url(../../recursos/cccc7.png);
   margin-bottom: 10%;
+}
+
+/* random gallery */
+.mateo-img {
+  background-image: url(../../recursos/rg-mateo.png);
+}
+
+.mona-img {
+  background-image: url(../../recursos/rg-mona.png);
+}
+
+.coco-img {
+  background-image: url(../../recursos/rg-coco.png);
+}
+
+.desorden-img {
+  background-image: url(../../recursos/rg-desorden.png);
+}
+
+.lyquido-img {
+  background-image: url(../../recursos/rg-lyquido.png);
+}
+
+.lugar-img {
+  background-image: url(../../recursos/rg-lugar.png);
+}
+
+.wurli-img {
+  background-image: url(../../recursos/rg-wurli.png);
+}
+
+.parla-img {
+  background-image: url(../../recursos/rg-parla.png);
+}
+
+.pop-img {
+  background-image: url(../../recursos/rg-pop.png);
+}
+
+.loco-img {
+  background-image: url(../../recursos/rg-loco.png);
+}
+
+.meseta-img {
+  background-image: url(../../recursos/rg-meseta.png);
 }
 
 h5 {
