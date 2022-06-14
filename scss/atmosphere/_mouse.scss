@@ -1,0 +1,34 @@
+/* HOVER */
+
+li{
+    transition: $tran-time;
+}
+
+.random:hover{
+    background-color: cornflowerblue;
+}
+.cccc:hover{
+    background-color: yellow;
+}
+.lola:hover{
+    background-color: plum;
+}
+.hbo:hover{
+    background-color: lightgreen;
+}
+.pisotones:hover{
+    background-color: orange;
+}
+.mateo:hover{
+    background-color: tomato;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    text-decoration: underline;
+}
+a.portfolio:hover{
+    text-decoration: none;
+}

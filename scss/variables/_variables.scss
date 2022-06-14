@@ -3,25 +3,29 @@
 $black: #000000;
 $white: #FFFFFF;
 
-$pop: $red;
 
-.pop{
-    color: $pop;
+.blue{
+    background-color: blue;
 }
-
-
+.black{
+    color: $black;
+}
+.white{
+    color: $white;
+}
+.back-black{
+    background-color: $black;
+}
+.back-white{
+    background-color: $white;
+}
 /*----- FONT STYLE -----*/
 
-$reg: 400; /*regular*/
-$bold: 600; /*semi bold*/
+$reg: 300; /*regular*/
 $font: 'Archivo', sans-serif;
 
 .light{
     font-weight: $reg;
-}
-
-.bold{
-    font-weight: $bold;
 }
 
 .underline{
@@ -30,9 +34,8 @@ $font: 'Archivo', sans-serif;
 
 
 /*----- Border -----*/
-$border: 1px;
-$radius: 10px;
-$radius-small: 2px;
+$border: 1.5px;
+$border-thick: 7px;
 
 /*----- Transition time -----*/
 $tran-time: .2s;

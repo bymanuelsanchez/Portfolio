@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* HOME */
+
+/* --- --- intro --- --- */
+
+.home-intro{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left: -1.5em;
+    top: 1em;
+}
+
+.home-intro-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+svg{
+    width: 20px;
+    position: absolute;
+    bottom: -250%;
+    left: 50%;
+    transition: $tran-time;
+    color: red;
+}
+svg:hover{  
+    border: $border solid $white;
+    left: 46.9%;
+    bottom: -254.5%;
+    padding: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-radius: 100%;
+}
+
+/* --- --- portfolio --- --- */
+
+section.portfolio{
+    background-color: white;
+    width: 100vw;
+    position: relative;
+    left: -1.5em;
+}
+li.portfolio{
+    padding: 20px;
+    padding-left: 35px;
+    border-bottom: $border-thick solid $black;
+}
+ul.portfolio{
+    padding: 0%;
+}
+
+/* Contact */
+
+section.contact{
+    height: 50vh;
+}
+
+div.contact{
+    position: relative;
+    top: 40%;
+}
+
+ul.contact{
+    padding: 0%;
+    margin: 0%;
+}

@@ -1,1 +1,23 @@
-@import "../scss/trial/trial.scss";
+@import "variables/_variables.scss";
+
+@import "atmosphere/_air.scss";
+
+@import "components/_nav";
+
+@import "components/_footer";
+
+@import "atmosphere/_grid";
+
+@import "atmosphere/_air";
+
+@import "atmosphere/_text-style";
+
+@import "atmosphere/_placing";
+
+@import "components/_entrada";
+
+@import "atmosphere/_img.scss";
+
+@import "components/random";
+
+@import "atmosphere/_mouse.scss";

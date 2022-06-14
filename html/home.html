@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="back-black">
 
 <head>
     <meta charset="UTF-8">
@@ -7,33 +7,61 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Space+Grotesk&display=swap"
-        rel="stylesheet">
-    <title>Portfolio</title>
-    <link rel="icon" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap" rel="stylesheet">
+    <title>Manuel Sánchez — Portfolio</title>
+    <link rel="icon" href="../recursos/logo.png">
 </head>
 
 <body>
-    <nav>
-        <a href="" class="">Home</a>
-        <div class="">
-            <ul class="">
-                <li><a href="" class="">Portfolio</a></li>
-                <li class=""><a href="" class="">Random Gallery</a></li>
-                <li class=""><a href="" class="">Contact</a></li>
-                <li class=""><a href="" class="">About</a></li>
+    <nav class="grid white">
+        <a href="../html/home.html" class="white row in-page">Home</a>
+        <div class="row">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="../html/home.html#portfolio" class="white">Portfolio</a></li>
+                <li class="nav-list-item"><a href="../html/random-gallery.html" class="white">Random Gallery</a></li>
+                <li class="nav-list-item"><a href="../html/about.html" class="white">About</a></li>
+                <li class="nav-list-item"><a href="../html/contact.html" class="white">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <section>
-        <p>Hey!</p>
-        <p>I’m Manuel Sánchez, a Graphic and UX/UI Designer
-            based in Valencia. This web is dedicate to show off
-            my work, check it out down below.</p>
-        <p>For jobs commissions or coffee breaks contact me.</p>
+    <section class="home-intro">
+        <div class="home-intro-content">
+            <p class="home">Hey!</p>
+            <p class="home">I’m Manuel Sánchez, a Graphic and UX/UI Designer
+                based in Valencia. This web is dedicate to show off
+                my work, check it out down below.</p>
+            <p class="home">For jobs commissions or coffee breaks contact me.</p>
+            <a href="#portfolio">
+                <svg width="34" height="37" viewBox="0 0 34 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.343039 20.2251L3.50355 17.0291L14.6009 28.1264L14.6009 0.249998L19.2173 0.249999L19.2173 28.1264L30.2969 17.0291L33.4751 20.2251L16.9091 36.7912L0.343039 20.2251Z"
+                        fill="white" />
+                </svg>
+            </a>
+        </div>
     </section>
+    <section id="portfolio" class="portfolio">
+        <ul class="portfolio">
+            <li class="portfolio random"><a href="../html/random-gallery.html" class="portfolio">RANDOM GALLERY</a></li>
+            <li class="portfolio cccc"><a href="../html/entrada.html" class="portfolio">CCCC MUSIC LAB</a></li>
+            <li class="portfolio lola"><a href="" class="portfolio">LOLA INDIGO</a></li>
+            <li class="portfolio hbo"><a href="" class="portfolio">HBO PRIDE</a></li>
+            <li class="portfolio pisotones"><a href="" class="portfolio">PISOTONES</a></li>
+            <li class="portfolio mateo"><a href="" class="portfolio">MATEO MORRAL</a></li>
+        </ul>
+    </section>
+    <footer class="grid">
+        <p class="footer row home">Manuel Sánchez, 2022</p>
+        <div>
+            <ul class="row footer-list">
+                <li class=""><a href="../html/home.html" class="">Home</a></li>
+                <li class=""><a href="../html/home.html#portfolio" class="">Portfolio</a></li>
+                <li class=""><a href="../html/contact.html" class="">Contact</a></li>
+                <li class=""><a href="../html/random-gallery.html" class="">Random Gallery</a></li>
+                <li class=""><a href="../html/about.html" class="">About</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
+
+</html>

@@ -1,0 +1,54 @@
+html{
+    font-family: $font;
+}
+
+a{
+    text-decoration: none;
+    color: $white;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    color: $black;
+    font-size: 16px;
+    line-height : 20px;
+}
+p.home{
+    color: $white;
+}
+
+a.portfolio{
+    color: $black;
+    font-size: 155px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: $reg;
+}
+
+h3{
+    font-size: 140px;
+    line-height : 110px;
+    font-weight: $reg;
+    transition: $tran-time;
+    margin-bottom: .1em
+}
+
+.about-title{
+    margin-top: .01em;
+    margin-bottom: .01em;
+}
+.about-title:hover{
+    font-style: italic;
+}
+.about-title-first{
+    margin-top: .3em;
+}
+
+h3{
+    margin-top: .3em;
+}

@@ -1,0 +1,52 @@
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .2s;
+}
+div{
+    transition: .2s;
+}
+
+
+
+.mateo-img{background-color: red;}
+
+
+/**/
+
+.random-img{
+    margin-top: 2em;
+    height: 48em;
+    width: 50em;
+    background-color: cornflowerblue;
+}
+
+/* about */
+
+.about-img{
+    margin-top: 2em;
+    height: 48em;
+    width: 50em;
+    background-color: yellow;
+}
+.about-img:hover{background-image: url(../../recursos/about.png);}
+
+/* entrada */
+
+.entrada-pic{
+    height: 700px;
+    width: 120%;
+    position: relative;
+    left: -10%;
+    margin-top: 1%;
+}
+.entrada-pic1{background-image: url(../../recursos/cccc1.png); margin-top: 10%;}
+.entrada-pic2{background-image: url(../../recursos/cccc2.png);}
+.entrada-pic3{background-image: url(../../recursos/cccc3.png);}
+.entrada-pic4{background-image: url(../../recursos/cccc4.png);}
+.entrada-pic5{background-image: url(../../recursos/cccc5.png);}
+.entrada-pic6{background-image: url(../../recursos/cccc6.png);}
+.entrada-pic7{background-image: url(../../recursos/cccc7.png); margin-bottom: 10%;}

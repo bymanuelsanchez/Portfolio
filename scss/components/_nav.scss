@@ -1,0 +1,24 @@
+nav{
+    z-index: 1;
+}
+
+.nav-list{
+    padding: 0%;
+    margin: 0%;
+    right: 0%;
+    display: flex;
+}
+.nav-list-item{
+    float: left;
+    padding-right: 4vw;
+}
+
+a.white{
+    color: $white;
+}
+a.black{
+    color: $black;
+}
+.in-page{
+    text-decoration: underline;
+}
