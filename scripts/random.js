@@ -67,12 +67,12 @@ function func10 () {
 
 
 
-lugar.addEventListener("mouseover", func11, true);
-function func11 () {
+lugar.addEventListener("mouseover", func21, true);
+function func21 () {
     img.classList.add("lugar-img"); 
 }
-lugar.addEventListener("mouseout", func12, true);
-function func12 () {
+lugar.addEventListener("mouseout", func22, true);
+function func22 () {
     img.classList.remove("lugar-img"); 
 }
 
